@@ -1,0 +1,22 @@
+# dependencies and builds
+node_modules
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# local tooling, previews and scratch (not part of the site)
+.taste-skill
+.preview/
+.sync/
+_to_delete/
+raw
+*.zip
+.env*
+.DS_Store
+Thumbs.db
+
+# Blender: keep the source scenes and the web model, not the render frames
+blender/*
+!blender/*.blend
+!blender/clam-tee.glb

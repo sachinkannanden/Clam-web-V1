@@ -1,0 +1,8 @@
+# keep line endings as LF in the repo on every machine (silences the CRLF warnings)
+* text=auto eol=lf
+*.blend binary
+*.glb binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.mp4 binary
